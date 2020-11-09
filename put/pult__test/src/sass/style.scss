@@ -1,0 +1,47 @@
+// Импорт шрифта
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+// Импорт стилей
+
+@import 'home/main';
+@import 'home/title';
+
+// Main style
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+// main style 
+
+a, a:hover {
+    text-decoration: none;  
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+	}
+}
+
+input, textarea {
+    resize: none;
+    outline: none;
+    border: none;
+}
